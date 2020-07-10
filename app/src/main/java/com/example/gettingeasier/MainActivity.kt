@@ -18,8 +18,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun getList(): ArrayList<Skills> {
         val skillsList: ArrayList<Skills> = ArrayList()
-        skillsList.add(Skills("C++", 4.0F, R.drawable.cplus))
-        skillsList.add(Skills("C#", 3.0F, R.drawable.csharp))
+        skillsList.add(Skills("C++", 4.0F, R.drawable.csharp))
+        skillsList.add(Skills("C#", 3.0F, R.drawable.cplus))
         skillsList.add(Skills("Python", 4.5F, R.drawable.python))
         skillsList.add(Skills("Cow", 0F, R.drawable.cow))
         skillsList.add(Skills("HTML", 3.5F, R.drawable.html))
